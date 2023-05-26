@@ -19,11 +19,11 @@ import seaborn as sns
 from PIL import Image
 import streamlit.components.v1 as components
 
-model = joblib.load("Web_app/best_model.sav")
+model = joblib.load("best_model.sav")
 
 
-image1 = Image.open('Web_app/crop.PNG')
-#image2 = Image.open('Web_app/farm_params.png')
+image1 = Image.open('crop.PNG')
+#image2 = Image.open('farm_params.png')
 st.set_page_config( 
     page_title="Yield Prediction App",
     page_icon=image1 
