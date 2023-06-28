@@ -201,5 +201,5 @@ imp_f.to_frame()
 fig = px.bar(data_frame=imp_f, orientation='h', labels={"index": "Parameters", "value": "Influence"}, text_auto='.3f', color=imp_f.values, color_continuous_scale='balance')
 fig.update_layout(showlegend=False)
 st.write(fig)
-st.write("""The amount of pesticides and fertilization level are bigest influensors in yield prediction. Being in region 5 or 6 also impacts the target varible estimation significantly.
+st.write("""The amount of pesticides and fertilization level are biggest influensors in yield prediction. Being in region 5 or 6 also impacts the target variable estimation significantly.
          \nModel rewards higher fertilization level and pesticide amount to achieve better yield per hectare while penalizes too much of pesticide supply and farms being in region 5 or 6.""")
