@@ -2,5 +2,5 @@ plotly-express==0.4.0
 joblib==1.2.0
 scikit-learn==1.2.2
 matplotlib==3.7.1
-seaborn
+seaborn==0.13.2
 streamlit==1.20.0
